@@ -37,7 +37,7 @@ struct ContentView: View {
                     Text("OM NOM NOM")
                         .padding()
                         .background(.blue)
-                        .foregroundColor(.grey)
+                        .foregroundColor(.gray)
                         .cornerRadius(10)
                 }
                
