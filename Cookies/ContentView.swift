@@ -13,7 +13,7 @@ struct ContentView: View {
     @State var message = ""
     var body: some View {
         ZStack{
-            Color(.gray)
+            Color(.green)
             VStack {
                 Text(" \(counter) cookies eaten")
                     .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
