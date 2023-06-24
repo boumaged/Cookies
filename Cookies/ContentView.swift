@@ -29,6 +29,7 @@ struct ContentView: View {
                     }
                     else if counter >= 20 {
                         message = "Don't eat too much cookies ☹️ "
+
                         
                     }
                     
@@ -36,7 +37,7 @@ struct ContentView: View {
                     Text("OM NOM NOM")
                         .padding()
                         .background(.blue)
-                        .foregroundColor(.white)
+                        .foregroundColor(.grey)
                         .cornerRadius(10)
                 }
                
